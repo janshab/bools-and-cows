@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Patrick+Hand&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background-color: azure;
+}
+
+h1 {
+    font-family: 'Patrick Hand', cursive;
+    color: #333;
+}
+input {
+    border: 5px solid #000 ;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5%;
+    width: 4vw;
+    height: 4vw;
+    text-align: center;
+    margin: 0.5vw;
+}
+#container{
+    margin:10%;
+}
+button {
+
+    cursor: pointer;
+    border-radius: 5%;
+    border: none;
+    margin: 1vw 0 0 0;
+    padding:1vw 2vw;
+    background: #007bff;
+    color: #fff;
+    transition: transform 0.4s linear, background 0.4s linear 0.4s, color 0.7s linear 2s;
+}
+
+button:hover {
+    background: #000;
+    transform: scale(1.2);
+    color:#fff700;
+}
+#result {
+    color: #ffbf00;
+    margin: 1vw 0 0 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.triesList{
+    padding:0 0 0.5vw 0;
+}
